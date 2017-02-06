@@ -1,0 +1,21 @@
+*+ WARNING: no -stim_label given for stim #1 ==> label = 'Stim#1'
+*+ WARNING: no -stim_label given for stim #2 ==> label = 'Stim#2'
+*+ WARNING: no -stim_label given for stim #3 ==> label = 'Stim#3'
+*+ WARNING: no -stim_label given for stim #4 ==> label = 'Stim#4'
+*+ WARNING: no -stim_label given for stim #5 ==> label = 'Stim#5'
+*+ WARNING: no -stim_label given for stim #6 ==> label = 'Stim#6'
+*+ WARNING: no -stim_label given for stim #7 ==> label = 'Stim#7'
+*+ WARNING: no -stim_label given for stim #8 ==> label = 'Stim#8'
+*+ WARNING: no -stim_label given for stim #9 ==> label = 'Stim#9'
+*+ WARNING: no -stim_label given for stim #10 ==> label = 'Stim#10'
+*+ WARNING: no -stim_label given for stim #11 ==> label = 'Stim#11'
+*+ WARNING: '-stim_times 1' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 2' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 4' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 5' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 6' (LOCAL) run#1 has 5 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 7' (LOCAL) run#1 has 5 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 8' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 9' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 10' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
+*+ WARNING: '-stim_times 11' (LOCAL) run#1 has 1 times outside range 0 .. 228 [PSFB syndrome]
