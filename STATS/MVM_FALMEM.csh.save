@@ -1,0 +1,41 @@
+#! /bin/csh 
+
+set dirA = ~/DATA/VIVA
+
+3dMVM -prefix MVM_FALMEM -jobs 4   												\
+	-wsVars Condicao													\
+        -num_glt 3                												\
+	-gltLabel	1	'FALSO'			-gltCode 1	'Condicao : 1*FALSO'				\
+	-gltLabel	2	'VERDADEIRO'		-gltCode 2	'Condicao : 1*VERDADEIRO'			\
+	-gltLabel	3	'FALSO-VERDADEIRO'	-gltCode 3	'Condicao : 1*FALSO -1*VERDADEIRO'		\
+	-dataTable                                            									\
+	Subj  	Condicao	InputFile                 									\
+	105	FALSO		${dirA}/VIVA105/visit1/PROC.RMET/stats.VIVA105+tlrc'[1]'				\
+	105	VERDADEIRO	${dirA}/VIVA105/visit1/PROC.RMET/stats.VIVA105+tlrc'[4]'				\
+	106	FALSO		${dirA}/VIVA106/visit1/PROC.RMET/stats.VIVA106+tlrc'[1]'				\
+	106	VERDADEIRO	${dirA}/VIVA106/visit1/PROC.RMET/stats.VIVA106+tlrc'[4]'				\
+	114	FALSO		${dirA}/VIVA114/visit1/PROC.RMET/stats.VIVA114+tlrc'[1]'				\
+	114	VERDADEIRO	${dirA}/VIVA114/visit1/PROC.RMET/stats.VIVA114+tlrc'[4]'				\
+	122	FALSO		${dirA}/VIVA122/visit1/PROC.RMET/stats.VIVA122+tlrc'[1]'				\
+	122	VERDADEIRO	${dirA}/VIVA122/visit1/PROC.RMET/stats.VIVA122+tlrc'[4]'				\
+	134	FALSO		${dirA}/VIVA134/visit1/PROC.RMET/stats.VIVA134+tlrc'[1]'				\
+	134	VERDADEIRO	${dirA}/VIVA134/visit1/PROC.RMET/stats.VIVA134+tlrc'[4]'				\
+	011	FALSO		${dirA}/VIVA011/visit1/PROC.RMET/stats.VIVA011+tlrc'[1]'				\
+	011	VERDADEIRO	${dirA}/VIVA011/visit1/PROC.RMET/stats.VIVA011+tlrc'[4]'				\
+	016	FALSO		${dirA}/VIVA016/visit1/PROC.RMET/stats.VIVA016+tlrc'[1]'				\
+	016	VERDADEIRO	${dirA}/VIVA016/visit1/PROC.RMET/stats.VIVA016+tlrc'[4]'				\
+	030	FALSO		${dirA}/VIVA030/visit1/PROC.RMET/stats.VIVA030+tlrc'[1]'				\
+	030	VERDADEIRO	${dirA}/VIVA030/visit1/PROC.RMET/stats.VIVA030+tlrc'[4]'				\
+	037	FALSO		${dirA}/VIVA037/visit1/PROC.RMET/stats.VIVA037+tlrc'[1]'				\
+	037	VERDADEIRO	${dirA}/VIVA037/visit1/PROC.RMET/stats.VIVA037+tlrc'[4]'				\
+	038	FALSO		${dirA}/VIVA038/visit1/PROC.RMET/stats.VIVA038+tlrc'[1]'				\
+	038	VERDADEIRO	${dirA}/VIVA038/visit1/PROC.RMET/stats.VIVA038+tlrc'[4]'				\
+	035	FALSO		${dirA}/VIVA035/visit1/PROC.RMET/stats.VIVA035+tlrc'[1]'				\
+	035	VERDADEIRO	${dirA}/VIVA035/visit1/PROC.RMET/stats.VIVA035+tlrc'[4]'				\
+	121	FALSO		${dirA}/VIVA121/visit1/PROC.RMET/stats.VIVA121+tlrc'[1]'				\
+	121	VERDADEIRO	${dirA}/VIVA121/visit1/PROC.RMET/stats.VIVA121+tlrc'[4]'				\
+	031	FALSO		${dirA}/VIVA031/visit1/PROC.RMET/stats.VIVA031+tlrc'[1]'				\
+	031	VERDADEIRO	${dirA}/VIVA031/visit1/PROC.RMET/stats.VIVA031+tlrc'[4]'
+
+
+
