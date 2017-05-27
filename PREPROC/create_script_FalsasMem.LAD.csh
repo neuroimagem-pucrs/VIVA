@@ -5,7 +5,7 @@
 # frases nonsense paradigm
 
 set study = VIVA
-set subj = (105 114 122 123)
+set subj = (036)
 #set subj = $1
 set run = FALMEM
 set visit = visit1
@@ -36,6 +36,7 @@ afni_proc.py \
 	-align_opts_aea -skullstrip_opts 		\
 		-shrink_fac_bot_lim 0.8 		\
 		-no_pushout				\
+#		-giant_move				\
 	-tlrc_base ${template}				\
         -mask_segment_anat yes				\
 	-blur_filter -1blur_fwhm			\
@@ -55,7 +56,7 @@ afni_proc.py \
 		-glt_label 2 false_vs_pergunta		\
 		-gltsym 'SYM: +true -pergunta'		\
 		-glt_label 3 true_vs_pergunta		\
-		-jobs 1					\
+		-jobs 8					\
         -regress_est_blur_epits				\
         -regress_est_blur_errts				\
 	-regress_censor_motion 0.9                      \

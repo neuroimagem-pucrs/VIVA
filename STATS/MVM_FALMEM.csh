@@ -2,7 +2,7 @@
 
 set dirA = ~/DATA/VIVA
 
-cd $dirA/STATS
+cd $dirA/STATS/Resultados_Preliminares
 
 3dMVM -prefix MVM_FALMEM_porParticipante -jobs 4   												\
 	-wsVars Condicao													\

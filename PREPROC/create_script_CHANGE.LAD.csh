@@ -5,8 +5,8 @@
 # frases nonsense paradigm
 
 set study = VIVA
-#set subj = (105 106 114 122 123)
-set subj = 106
+#set subj = $1
+set subj = (044 108 )
 set run = CHANGE
 set visit = visit1
 
@@ -36,6 +36,7 @@ afni_proc.py \
 	-align_opts_aea -skullstrip_opts 		\
 		-shrink_fac_bot_lim 0.8 		\
 		-no_pushout				\
+#		-giant_move				\
 	-tlrc_base ${template}				\
         -mask_segment_anat yes				\
 	-blur_filter -1blur_fwhm			\

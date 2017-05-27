@@ -5,14 +5,17 @@
 # frases nonsense paradigm
 
 set study = VIVA
-set subj = $1
+#set subj = $1
+set subjs = (108)
 set run = RMET
 set visit = visit1
 
 set script_folder = `pwd`
 
 #set template = /media/DATA/IDEAL_BRAINS/nihpd_sym_07.5-13.5_t1w+tlrc
-set template = ~/templates/HaskinsPeds_NL_template1.0+tlrc
+set template = ~/DATA/VIVA/SCRIPTS/VIVA/PREPROC/HaskinsPeds_NL_template1.0+tlrc
+
+foreach subj ($subjs)
 
 cd ../../../
 cd VIVA${subj}/${visit}
@@ -34,6 +37,7 @@ afni_proc.py \
 	-align_opts_aea -skullstrip_opts 		\
 		-shrink_fac_bot_lim 0.8 		\
 		-no_pushout				\
+		-giant_move				\
 	-tlrc_base ${template}				\
         -mask_segment_anat yes				\
 	-blur_filter -1blur_fwhm			\
@@ -73,6 +77,7 @@ afni_proc.py \
 	cd PROC.${run}
 	gzip -v *BRIK
 
+end
 exit
 
 
