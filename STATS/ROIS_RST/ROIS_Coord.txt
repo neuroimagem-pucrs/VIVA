@@ -1,0 +1,21 @@
+#### ROIS
+
+
+#8	-56	26	1	# PCC
+#-44	24	2	2	# RIFG
+#44	-58	-15	3	# VWFA
+#45	-64	33	4	# LAG
+#44	24	2	5	# LIFG
+#52	-19	7	6	# LMTG
+#51	-17	0	7	# LSTG
+
+
+#8	32	7	1	# Cingulo Anterior Esquerdo - LACC
+#-8	32	7	2	# Cingulo Anterior Direito - RACC
+#44	24	2	3	# Giro Frontal Inferior Esquerdo - LIFG
+#23	-5	-15	4	# Amigdala Esquerda - LAmig
+#-23	-5	-15	5	# Amigdala Direita - RAmig
+#-48	-41	39	6	# Lobo Parietal Interior Direito -LIPL
+
+30	-24	-9	1	# Hipocampo Esquerdo - LHipp
+-30	-24	-9	2	# Hipocampo Direito - RHipp 
