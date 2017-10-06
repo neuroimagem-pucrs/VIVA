@@ -35,7 +35,15 @@ set dirA = ~/DATA/VIVA
 	121	EMOCAO		${dirA}/VIVA121/visit1/PROC.RMET/stats.VIVA121+tlrc'[1]'				\
 	121	SEXO		${dirA}/VIVA121/visit1/PROC.RMET/stats.VIVA121+tlrc'[4]'				\
 	031	EMOCAO		${dirA}/VIVA031/visit1/PROC.RMET/stats.VIVA031+tlrc'[1]'				\
-	031	SEXO		${dirA}/VIVA031/visit1/PROC.RMET/stats.VIVA031+tlrc'[4]'
+	031	SEXO		${dirA}/VIVA031/visit1/PROC.RMET/stats.VIVA031+tlrc'[4]'				\
+	036	EMOCAO		${dirA}/VIVA036/visit1/PROC.RMET/stats.VIVA036+tlrc'[1]'				\
+	036	SEXO		${dirA}/VIVA036/visit1/PROC.RMET/stats.VIVA036+tlrc'[4]'				\
+	044	EMOCAO		${dirA}/VIVA044/visit1/PROC.RMET/stats.VIVA044+tlrc'[1]'				\
+	044	SEXO		${dirA}/VIVA044/visit1/PROC.RMET/stats.VIVA044+tlrc'[4]'				\
+	004	EMOCAO		${dirA}/VIVA004/visit1/PROC.RMET/stats.VIVA004+tlrc'[1]'				\
+	004	SEXO		${dirA}/VIVA004/visit1/PROC.RMET/stats.VIVA004+tlrc'[4]'				\
+	005	EMOCAO		${dirA}/VIVA005/visit1/PROC.RMET/stats.VIVA005+tlrc'[1]'				\
+	005	SEXO		${dirA}/VIVA005/visit1/PROC.RMET/stats.VIVA005+tlrc'[4]'
 
 
 

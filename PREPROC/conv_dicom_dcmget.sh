@@ -4,8 +4,8 @@
 ### SOMENTE EDITAR ESTA PARTE PARA CADA SUJEITO ###
 ###################################################
 
-study=SELF
-subj=048
+study=VIVA
+subj=$1
 visit=visit1
 
 #####################################
@@ -13,7 +13,7 @@ visit=visit1
 #####################################
 
 # get out of script folder
-cd ..
+cd ../../../
 
 # go inside subject folder
 cd ${study}${subj}
@@ -53,8 +53,10 @@ cd ..
 #############################################################
 
 
-pastas=("ANAT" "SELFI" "SELFII")
-series=("AXI3DFSPGRBRAVO" "SELFII" )
+pastas=("ANAT" "CHANGE" "FALMEM" "RMET1" "RMET2" "RST" "FLAIR")
+series=("AXI3DFSPGRBRAVO" "CHANGE" "FALSE_MEM" "FMRIRMETI" "FMRIRMETII" "FMRIRST" "SFlairCube")
+
+
 
 
 #########################################################

@@ -5,7 +5,7 @@
 # frases nonsense paradigm
 
 set study = VIVA
-set subj = (036)
+set subj = (201 205)
 #set subj = $1
 set run = FALMEM
 set visit = visit1

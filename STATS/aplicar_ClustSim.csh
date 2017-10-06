@@ -9,26 +9,21 @@
 # --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 set mask_dir = ~/DATA/VIVA/VIVA106/visit1/PROC.CHANGE/mask_group+tlrc.BRIK.gz
-set arquivos_dir = ~/DATA/VIVA/STATS
+set arquivos_dir = ~/DATA/VIVA/STATS/Resultados_Preliminares/RMET
 #set arquivo_abuso_NT = (ttest.abuso_vs_NT_7+tlrc.BRIK.gz ttest.abuso_vs_NT_19+tlrc.BRIK.gz ttest.abuso_vs_NT_27+tlrc.BRIK.gz)
 #set arquivo_negligencia_NT = (ttest.negligencia_vs_NT_7+tlrc.BRIK.gz ttest.negligencia_vs_NT_19+tlrc.BRIK.gz ttest.negligencia_vs_NT_27+tlrc.BRIK.gz)
 
 
-set arquivos = ( MVM_FALMEM_porParticipante+tlrc.BRIK.gz )
+set arquivos = ( RMET_EMOCAO_JVQ.bucket+tlrc.BRIK RMET_EMOCAOvsSEXO_JVQ.bucket+tlrc.BRIK RMET_SEXO_JVQ.bucket+tlrc.BRIK )
 
-## -fwhmxyz CHANGE = 10.7122  11.0578  9.00659
-## -fwhmxyz FALMEM = 10.6011  11.0094  8.54741
-## -fwhmxyz RMET = 10.8711  11.1216  9.19368
 
-### MVM_CHANGE+tlrc.BRIK.gz  MVM_FALMEM+tlrc.BRIK.gz MVM_RMET+tlrc.BRIK.gz  )
-
-3dClustSim 	-fwhmxyz 10.6011  11.0094  8.54741	\
-	   	-LOTS			\
-	   	-iter 10000		\
-		-NN 123			\
-		-both			\
-		-mask ${mask_dir}	\
-		-prefix ClustSim
+#3dClustSim 	-acf 0.46329412		6.184302 	12.902636	\
+#	   	-LOTS			\
+#	   	-iter 10000		\
+#		-NN 123			\
+#		-both			\
+#		-mask ${mask_dir}	\
+#		-prefix ClustSim
 
 
 foreach arquivo ( ${arquivos} )

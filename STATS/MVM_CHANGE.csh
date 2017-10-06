@@ -1,8 +1,8 @@
 #! /bin/csh 
 
-cd  ~/DATA/VIVA/STATS/Resultados_Preliminares
+cd  ~/DATA/VIVA/STATS/OLD/BRAIN_2017/CHANGE
 
-3dMVM -prefix MVM_CHANGE -jobs 4   												\
+3dMVM -prefix MVM_CHANGE_BRAIN -jobs 4   												\
 	-wsVars 'Condicao'													\
         -num_glt 6                												\
 	-gltLabel	1	'CHANGE'			-gltCode 1	'Condicao : 1*CHANGE'				\
@@ -48,7 +48,34 @@ cd  ~/DATA/VIVA/STATS/Resultados_Preliminares
 	121	GO_O			~/DATA/VIVA/VIVA121/visit1/PROC.CHANGE/stats.VIVA121+tlrc'[4]'				\
 	031	CHANGE			~/DATA/VIVA/VIVA031/visit1/PROC.CHANGE/stats.VIVA031+tlrc'[7]'				\
 	031	GO_X			~/DATA/VIVA/VIVA031/visit1/PROC.CHANGE/stats.VIVA031+tlrc'[1]'				\
-	031	GO_O			~/DATA/VIVA/VIVA031/visit1/PROC.CHANGE/stats.VIVA031+tlrc'[4]'
+	031	GO_O			~/DATA/VIVA/VIVA031/visit1/PROC.CHANGE/stats.VIVA031+tlrc'[4]'				\
+	036	CHANGE			~/DATA/VIVA/VIVA036/visit1/PROC.CHANGE/stats.VIVA036+tlrc'[7]'				\
+	036	GO_X			~/DATA/VIVA/VIVA036/visit1/PROC.CHANGE/stats.VIVA036+tlrc'[1]'				\
+	036	GO_O			~/DATA/VIVA/VIVA036/visit1/PROC.CHANGE/stats.VIVA036+tlrc'[4]'				\
+	044	CHANGE			~/DATA/VIVA/VIVA044/visit1/PROC.CHANGE/stats.VIVA044+tlrc'[7]'				\
+	044	GO_X			~/DATA/VIVA/VIVA044/visit1/PROC.CHANGE/stats.VIVA044+tlrc'[1]'				\
+	044	GO_O			~/DATA/VIVA/VIVA044/visit1/PROC.CHANGE/stats.VIVA044+tlrc'[4]'				\
+	108	CHANGE			~/DATA/VIVA/VIVA108/visit1/PROC.CHANGE/stats.VIVA108+tlrc'[7]'				\
+	108	GO_X			~/DATA/VIVA/VIVA108/visit1/PROC.CHANGE/stats.VIVA108+tlrc'[1]'				\
+	108	GO_O			~/DATA/VIVA/VIVA108/visit1/PROC.CHANGE/stats.VIVA108+tlrc'[4]'				\
+	004	CHANGE			~/DATA/VIVA/VIVA004/visit1/PROC.CHANGE/stats.VIVA004+tlrc'[7]'				\
+	004	GO_X			~/DATA/VIVA/VIVA004/visit1/PROC.CHANGE/stats.VIVA004+tlrc'[1]'				\
+	004	GO_O			~/DATA/VIVA/VIVA004/visit1/PROC.CHANGE/stats.VIVA004+tlrc'[4]'				\
+	005	CHANGE			~/DATA/VIVA/VIVA005/visit1/PROC.CHANGE/stats.VIVA005+tlrc'[7]'				\
+	005	GO_X			~/DATA/VIVA/VIVA005/visit1/PROC.CHANGE/stats.VIVA005+tlrc'[1]'				\
+	005	GO_O			~/DATA/VIVA/VIVA005/visit1/PROC.CHANGE/stats.VIVA005+tlrc'[4]'				\
+	020	CHANGE			~/DATA/VIVA/VIVA020/visit1/PROC.CHANGE/stats.VIVA020+tlrc'[7]'				\
+	020	GO_X			~/DATA/VIVA/VIVA020/visit1/PROC.CHANGE/stats.VIVA020+tlrc'[1]'				\
+	020	GO_O			~/DATA/VIVA/VIVA020/visit1/PROC.CHANGE/stats.VIVA020+tlrc'[4]'				\
+	010	CHANGE			~/DATA/VIVA/VIVA010/visit1/PROC.CHANGE/stats.VIVA010+tlrc'[7]'				\
+	010	GO_X			~/DATA/VIVA/VIVA010/visit1/PROC.CHANGE/stats.VIVA010+tlrc'[1]'				\
+	010	GO_O			~/DATA/VIVA/VIVA010/visit1/PROC.CHANGE/stats.VIVA010+tlrc'[4]'				\
+	015	CHANGE			~/DATA/VIVA/VIVA015/visit1/PROC.CHANGE/stats.VIVA015+tlrc'[7]'				\
+	015	GO_X			~/DATA/VIVA/VIVA015/visit1/PROC.CHANGE/stats.VIVA015+tlrc'[1]'				\
+	015	GO_O			~/DATA/VIVA/VIVA015/visit1/PROC.CHANGE/stats.VIVA015+tlrc'[4]'				\
+	014	CHANGE			~/DATA/VIVA/VIVA014/visit1/PROC.CHANGE/stats.VIVA014+tlrc'[7]'				\
+	014	GO_X			~/DATA/VIVA/VIVA014/visit1/PROC.CHANGE/stats.VIVA014+tlrc'[1]'				\
+	014	GO_O			~/DATA/VIVA/VIVA014/visit1/PROC.CHANGE/stats.VIVA014+tlrc'[4]'
 
 
 
